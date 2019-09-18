@@ -13,7 +13,7 @@ while True:
     select([dev], [], [])
     for event in dev.read():
         # print "code:%s value:%s" % (event.code, event.value)
-        elif(event.code==74 and event.value==1):
+        if(event.code==74 and event.value==1):
             sound_volume=sound_volume - 20
             if(sound_volume<0):
                 sound_volume=0
