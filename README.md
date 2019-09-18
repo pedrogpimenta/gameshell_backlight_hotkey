@@ -1,13 +1,13 @@
 # gameshell_backlight_hotkey
 
-Control backlight brightness and sound volume everywhere!
+Control sound volume everywhere!
 hotkey:
 
 Shift + Select: Volume down
 Shift + Start: Volume up
 
 
-How install:
+How to install:
 
 1.command line:
 
