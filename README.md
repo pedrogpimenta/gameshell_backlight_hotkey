@@ -3,14 +3,8 @@
 Control backlight brightness and sound volume everywhere!
 hotkey:
 
-select+left sound volume down
-
-select+right sound volume up
-
-select+up sound light up
-
-select+down sound light down
-
+Shift + Select: Volume down
+Shift + Start: Volume up
 
 
 How install:
@@ -19,7 +13,7 @@ How install:
 
 sudo pip install evdev
 
-git clone https://github.com/zfteam/gameshell_backlight_hotkey.git
+git clone https://github.com/pedrogpimenta/gameshell_backlight_hotkey.git
 
 cd gameshell_backlight_hotkey
 
