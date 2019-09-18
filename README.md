@@ -1,4 +1,4 @@
-# gameshell_backlight_hotkey
+# gameshell_volume_hotkey
 
 Control sound volume everywhere!
 hotkey:
@@ -13,11 +13,11 @@ How to install:
 
 sudo pip install evdev
 
-git clone https://github.com/pedrogpimenta/gameshell_backlight_hotkey.git
+git clone https://github.com/pedrogpimenta/gameshell_volume_hotkey.git
 
-cd gameshell_backlight_hotkey
+cd gameshell_volume_hotkey
 
-cp backlight_hotkey.py ~/launcher/sys.py/
+cp volume_hotkey.py ~/launcher/sys.py/
 
 cp -r tools ~/launcher/sys.py/
 
@@ -26,7 +26,7 @@ cp -r tools ~/launcher/sys.py/
 
 "sudo nano /etc/rc.local" open rc.local file and input this to the last line
 
-nohup python /home/cpi/launcher/sys.py/backlight_hotkey.py &
+nohup python /home/cpi/launcher/sys.py/volume_hotkey.py &
 
 
 3.reboot system
