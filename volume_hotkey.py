@@ -14,7 +14,7 @@ while True:
     for event in dev.read():
         # print "code:%s value:%s" % (event.code, event.value)
         if(event.code==74 and event.value==1):
-            sound_volume=sound_volume - 20
+            sound_volume=sound_volume - 10
             if(sound_volume<0):
                 sound_volume=0
             try:
@@ -23,7 +23,7 @@ while True:
             except Exception,e:
                 print(str(e))
         elif(event.code==78 and event.value==1):
-            sound_volume=sound_volume + 20
+            sound_volume=sound_volume + 10
             if(sound_volume>100):
                 sound_volume=98
             try:
